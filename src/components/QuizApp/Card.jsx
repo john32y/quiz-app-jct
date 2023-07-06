@@ -1,8 +1,11 @@
+const imageUri = process.env.PUBLIC_URL + '/images/';
+
 export default function Card({data, quizLength, quizId, handleAnswer}){
     return(
     <div className="quiz-card">
         <p>{quizId + 1}/{quizLength}</p>
-        <h3>{ data[quizId].question }</h3>
+        <img src={imageUri + data[quizId].image} alt="" />
+        {/* <h3>{ data[quizId].question }</h3> */}
         <ul>
             {data[quizId].options.map(
                 (e, index) => {
