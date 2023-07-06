@@ -24,7 +24,7 @@
   
     {
       "id": 2,
-      "image": "gonnies.webp",
+      "image": "What is the capital of Ireland?",
       "options": [
         {
           "answer": "Paris",
@@ -50,7 +50,7 @@
   
     {
       "id": 3,
-      "image": "ironman.jpg",
+      "question": "ironman.jpeg?",
       "options": [
         {
           "answer": "Paris",
@@ -70,51 +70,4 @@
         }
       ]
     }
-    {
-      "id": 4,
-      "image": "matrix.jpg",
-      "options": [
-        {
-          "answer": "Man in Black",
-          "isCorrect": false
-        },
-    
-        {
-          "answer": "Bourne Identity",
-          "isCorrect": false
-        },
-    
-        {
-          "answer": "Matrix",
-          "isCorrect": true
-        },
-        {
-          "answer": "Speed",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "image": "shrek.jpg",
-      "options": [
-        {
-          "answer": "Soylent Green",
-          "isCorrect": false
-        },
-        {
-          "answer": "Green Giant",
-          "isCorrect": false
-        },
-        {
-          "answer": "Shrek",
-          "isCorrect": true
-        },
-        {
-          "answer": "The Big Green",
-          "isCorrect": false
-        }
-      ]
-    }
-    ]
-  
+  ]

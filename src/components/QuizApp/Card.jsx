@@ -1,4 +1,4 @@
-const imageUri = process.env.PUBLIC_URL + '/images/';
+const imageUri = process.env.PUBLIC_URL + '/images/Archive/';
 
 export default function Card({data, quizLength, quizId, handleAnswer}){
     return(
